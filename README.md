@@ -25,6 +25,7 @@ minecraft_version = ...
 ## Credits
 - Sodium - https://modrinth.com/mod/sodium
 - Lithium - https://modrinth.com/mod/lithium
+- Indium - https://modrinth.com/mod/indium
 - FastLoad - https://modrinth.com/mod/fastload
 - FerriteCore - https://modrinth.com/mod/ferrite-core
 - LazyDFU - https://modrinth.com/mod/lazydfu
