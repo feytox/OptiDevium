@@ -13,7 +13,7 @@ repositories {
 <...>
 
 dependencies {
-    modImplementation "com.github.feytox:optidevium:${project.minecraft_version}-SNAPSHOT"
+    modImplementation "com.github.feytox:OptiDevium:${project.minecraft_version}-SNAPSHOT"
 }
 ```
 
@@ -21,6 +21,8 @@ dependencies {
 ```properties
 minecraft_version = ...
 ```
+
+Make sure that there is a branch with the version number you need.
 
 ## Credits
 - Sodium - https://modrinth.com/mod/sodium
