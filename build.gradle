@@ -30,7 +30,6 @@ dependencies {
     implementation 'org.joml:joml:1.10.5'
     modImplementation "maven.modrinth:ferrite-core:${project.ferrite_version}"
     modImplementation "maven.modrinth:smoothboot-fabric:${project.smoothboot_version}"
-    modImplementation "maven.modrinth:lazydfu:${project.lazydfu_version}"
     modImplementation "maven.modrinth:modmenu:${project.modmenu_version}"
     modImplementation "maven.modrinth:sodium:${project.sodium_version}"
     modImplementation "maven.modrinth:lithium:${project.lithium_version}"
