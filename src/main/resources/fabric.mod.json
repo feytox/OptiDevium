@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "devoptimized",
+  "id": "optidevium",
   "version": "${version}",
-  "name": "DevOptimized",
-  "description": "Optimization mods ONLY for developers",
+  "name": "OptiDevium",
+  "description": "A set of basic optimization mods for developers ONLY",
   "authors": [
     "Feytox"
   ],
   "contact": {
-    "repo": "https://github.com/Feytox/DevOptimized"
+    "repo": "https://github.com/Feytox/OptiDevium"
   },
   "license": "MIT",
   "icon": "assets/DevOptimized/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "ru.feytox.devoptimized.DevOptimized"
+      "ru.feytox.optidevium.OptiDevium"
     ]
   },
   "depends": {

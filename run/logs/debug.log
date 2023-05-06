@@ -132,7 +132,7 @@
 [14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.client.rendering.RenderingCallbackInvoker for mod fabric-rendering-v0 (key client)
 [14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.OldClientNetworkingHooks for mod fabric-networking-v0 (key client)
 [14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.networking.OldNetworkingHooks for mod fabric-networking-v0 (key main)
-[14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer ru.feytox.devoptimized.DevOptimized for mod devoptimized (key client)
+[14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer ru.feytox.optidevium.OptiDevium for mod devoptimized (key client)
 [14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouterClient for mod fabric-events-interaction-v0 (key client)
 [14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouter for mod fabric-events-interaction-v0 (key main)
 [14:20:47] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.client.LegacyClientEventInvokers for mod fabric-events-lifecycle-v0 (key client)

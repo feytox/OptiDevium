@@ -1,10 +1,10 @@
-package ru.feytox.devoptimized;
+package ru.feytox.optidevium;
 
 import net.fabricmc.api.ClientModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DevOptimized implements ClientModInitializer {
+public class OptiDevium implements ClientModInitializer {
     public static final String MOD_ID = "devoptimized";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
