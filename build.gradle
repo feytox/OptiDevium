@@ -27,6 +27,7 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+    implementation 'org.joml:joml:1.10.5'
     modImplementation "maven.modrinth:smoothboot-fabric:${project.smoothboot_version}"
     modImplementation "maven.modrinth:ferrite-core:${project.ferrite_version}"
     modImplementation "maven.modrinth:lazydfu:${project.lazydfu_version}"
