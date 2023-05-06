@@ -11,7 +11,7 @@
     "repo": "https://github.com/Feytox/OptiDevium"
   },
   "license": "MIT",
-  "icon": "assets/DevOptimized/icon.png",
+  "icon": "assets/optidevium/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
