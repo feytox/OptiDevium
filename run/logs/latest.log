@@ -1,0 +1,165 @@
+[14:20:46] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.18.2 with Fabric Loader 0.14.19
+[14:20:47] [main/INFO] (FabricLoader) Loading 56 mods:
+	- devoptimized 1.0.0
+	- fabric-api 0.76.0+1.18.2
+	- fabric-api-base 0.4.5+64b7c69360
+	- fabric-api-lookup-api-v1 1.6.3+2373a54560
+	- fabric-biome-api-v1 8.0.7+e83becad60
+	- fabric-block-api-v1 1.0.0+ee3621fc60
+	- fabric-blockrenderlayer-v1 1.1.13+3ac43d9560
+	- fabric-command-api-v1 1.1.10+d7c144a860
+	- fabric-commands-v0 0.2.9+b4f4f6cd60
+	- fabric-containers-v0 0.1.24+d7c144a860
+	- fabric-content-registries-v0 3.1.3+c85f2e3860
+	- fabric-convention-tags-v1 1.1.0+43ce63a460
+	- fabric-crash-report-info-v1 0.2.1+ee261a3e60
+	- fabric-data-generation-api-v1 3.1.0+6c70b68e60
+	- fabric-dimensions-v1 2.1.21+489d6f8260
+	- fabric-entity-events-v1 1.4.9+d7c144a860
+	- fabric-events-interaction-v0 0.4.20+d7c144a860
+	- fabric-events-lifecycle-v0 0.2.22+d7c144a860
+	- fabric-game-rule-api-v1 1.0.13+d7c144a860
+	- fabric-gametest-api-v1 1.0.21+91b7aa6660
+	- fabric-item-api-v1 1.6.2+8165403660
+	- fabric-item-groups-v0 0.3.16+91896a4960
+	- fabric-key-binding-api-v1 1.0.12+54e5b2ec60
+	- fabric-keybindings-v0 0.2.10+b4f4f6cd60
+	- fabric-lifecycle-events-v1 2.1.1+cc71601c60
+	- fabric-loot-api-v2 1.1.2+1997ad1260
+	- fabric-loot-tables-v1 1.1.4+e747827960
+	- fabric-mining-level-api-v1 2.1.6+cc71601c60
+	- fabric-models-v0 0.3.7+d7c144a860
+	- fabric-networking-api-v1 1.0.24+2d30af4b60
+	- fabric-networking-v0 0.3.11+b4f4f6cd60
+	- fabric-object-builder-api-v1 2.1.5+032c981d60
+	- fabric-particles-v1 0.2.13+526dc1ac60
+	- fabric-registry-sync-v0 0.9.12+bb2e047760
+	- fabric-renderer-api-v1 0.5.0+bf48649860
+	- fabric-renderer-indigo 0.6.1+03e2b68760
+	- fabric-renderer-registries-v1 3.2.12+b4f4f6cd60
+	- fabric-rendering-data-attachment-v1 0.3.9+ee3621fc60
+	- fabric-rendering-fluids-v1 2.0.3+54e5b2ec60
+	- fabric-rendering-v0 1.1.14+b4f4f6cd60
+	- fabric-rendering-v1 1.10.8+54e5b2ec60
+	- fabric-resource-conditions-api-v1 2.0.3+91b7aa6660
+	- fabric-resource-loader-v0 0.5.3+047a5ecb60
+	- fabric-screen-api-v1 1.0.11+d882b91560
+	- fabric-screen-handler-api-v1 1.2.3+1f6558e860
+	- fabric-textures-v0 1.0.13+3ac43d9560
+	- fabric-transfer-api-v1 1.6.4+f4563ac860
+	- fabric-transitive-access-wideners-v1 1.1.0+e747827960
+	- fabricloader 0.14.19
+	- fastload 3.4.0
+	- ferritecore 4.2.1
+	- java 17
+	- lazydfu 0.1.2
+	- minecraft 1.18.2
+	- modmenu 3.2.5
+	- sodium 0.4.1+build.15
+[14:20:47] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Feytox/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.4+mixin.0.8.5/e13b4069fe3555969811d4474f78576c707bbe1c/sponge-mixin-0.12.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[14:20:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[14:20:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[14:20:48] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[14:20:48] [main/INFO] (Sodium) Loaded configuration file for Sodium: 29 options available, 0 override(s) found
+[14:20:48] [main/ERROR] (FabricLoader/Mixin) Error loading companion plugin class [io.github.bumblesoftware.fastload.mixin.plugin.FLConditionalMixinConfig] for mixin config [fastload.mixins.json]. The plugin may be out of date: NoClassDefFoundError:me/fallenbreath/conditionalmixin/api/mixin/RestrictiveMixinConfigPlugin
+java.lang.NoClassDefFoundError: me/fallenbreath/conditionalmixin/api/mixin/RestrictiveMixinConfigPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.defineClassFwd(KnotClassLoader.java:153) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:355) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112) ~[fabric-loader-0.14.19.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.MixinServiceKnot.findClass(MixinServiceKnot.java:96) ~[fabric-loader-0.14.19.jar:?]
+	at org.spongepowered.asm.mixin.transformer.PluginHandle.<init>(PluginHandle.java:96) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.onSelect(MixinConfig.java:708) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.selectConfigs(MixinProcessor.java:498) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:460) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) [sponge-mixin-0.12.4+mixin.0.8.5.jar:0.12.4+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112) [fabric-loader-0.14.19.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) [?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) [?:?]
+	at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:162) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: java.lang.ClassNotFoundException: me.fallenbreath.conditionalmixin.api.mixin.RestrictiveMixinConfigPlugin
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:226) ~[fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112) ~[fabric-loader-0.14.19.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 35 more
+[14:20:50] [main/INFO] (Sodium) Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
+[14:21:06] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:21:08] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:132) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:44) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:153) ~[authlib-3.3.39.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:680) [minecraft-merged-project-root-1.18.2-net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:424) [minecraft-merged-project-root-1.18.2-net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:197) [minecraft-merged-project-root-1.18.2-net.fabricmc.yarn.1_18_2.1.18.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:462) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.14.19.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:78) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.3.39.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:113) ~[authlib-3.3.39.jar:?]
+	... 9 more
+[14:21:08] [Render thread/INFO] (Minecraft) Setting user: Player946
+[14:21:08] [Render thread/WARN] (Fastload) Failed to parse variable 'chunk_try_limit' in Fastload's config, generating a new one!
+[14:21:08] [Render thread/WARN] (Fastload) Failed to parse variable 'debug' in Fastload's config, generating a new one!
+[14:21:08] [Render thread/WARN] (Fastload) Failed to parse variable 'instant_load' in Fastload's config, generating a new one!
+[14:21:08] [Render thread/WARN] (Fastload) Failed to parse variable 'local_render_chunk_radius' in Fastload's config, generating a new one!
+[14:21:08] [Render thread/WARN] (Fastload) Failed to parse variable 'server_render_chunk_radius' in Fastload's config, generating a new one!
+[14:21:09] [Render thread/INFO] (Fastload) Fastload Perceived Version: 1.18.2
+[14:21:09] [Render thread/INFO] (Fastload) Fastload Abstraction Supported Versions: [1.18.2]
+[14:21:09] [Render thread/INFO] (Fastload) DEBUG: FALSE
+[14:21:09] [Render thread/INFO] (Fastload) CHUNK_TRY_LIMIT: 250
+[14:21:09] [Render thread/INFO] (Fastload) LOCAL_RENDER_CHUNK_RADIUS: 10
+[14:21:09] [Render thread/INFO] (Fastload) LOCAL_RENDER_CHUNK_AREA: 314
+[14:21:09] [Render thread/INFO] (Fastload) SERVER_RENDER_CHUNK_RADIUS: 3
+[14:21:09] [Render thread/INFO] (Fastload) SERVER_RENDER_CHUNK_AREA: 28
+[14:21:09] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[14:21:09] [Render thread/WARN] (devoptimized) If you see this message outside of the IDE, you must uninstall DevOptimized and install all the mods included in it yourself.
+[14:21:10] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: DevOptimized in mod ID devoptimized
+[14:21:10] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.2.2 build 10
+[14:21:11] [Render thread/WARN] (ModNioResourcePack) Fabric NioResourcePack: ignored invalid namespace: DevOptimized in mod ID devoptimized
+[14:21:13] [Render thread/INFO] (Minecraft) Narrator library for x64 successfully loaded
+[14:21:13] [Render thread/INFO] (Minecraft) Reloading ResourceManager: Default, Fabric Mods (Fabric Transitive Access Wideners (v1), Fabric Models (v0), Fabric Resource Loader (v0), Fabric Command API (v1), Fabric Loader, Fabric Rendering (v1), Fabric Networking API (v1), Fabric Particles (v1), Sodium, Fabric Item Groups (v0), Fabric Crash Report Info (v1), Fast Load, Fabric Object Builder API (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Key Bindings (v0), Fabric Biome API (v1), Fabric Rendering Data Attachment (v1), Fabric Renderer - Indigo, Fabric Commands (v0), Fabric Loot API (v2), Fabric Item API (v1), LazyDFU, Fabric Containers (v0), Fabric Screen Handler API (v1), Fabric Lifecycle Events (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Networking (v0), Fabric Key Binding API (v1), Fabric Renderer Registries (v1), Fabric Mining Level API (v1), Fabric Events Interaction (v0), Fabric Convention Tags, Fabric Events Lifecycle (v0), Fabric BlockRenderLayer Registration (v1), Fabric API, Fabric Resource Conditions API (v1), Fabric Game Test API (v1), Fabric Textures (v0), Fabric Renderer API (v1), Mod Menu, Fabric Transfer API (v1), Fabric Entity Events (v1), Fabric Screen API (v1), Fabric Game Rule API (v1), Fabric API Base, Fabric Registry Sync (v0), Fabric Loot Tables (v1), Fabric Content Registries (v0), Fabric API Lookup API (v1))
+[14:21:15] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[14:21:17] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Динамики (USB PnP Audio Device)
+[14:21:17] [Render thread/INFO] (Minecraft) Sound engine started
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[14:21:17] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[14:21:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[14:21:19] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[14:21:19] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[14:21:52] [Render thread/INFO] (Sodium) Flushed changes to Minecraft configuration
+[14:21:54] [Render thread/INFO] (Sodium) Flushed changes to Minecraft configuration
+[14:21:58] [Render thread/INFO] (Sodium) Flushed changes to Minecraft configuration
+[14:22:02] [Render thread/INFO] (Minecraft) Stopping!
