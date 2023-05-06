@@ -8,6 +8,7 @@ I strongly recommend not to build OptiDevium manually and not to use it outside 
 ```groovy
 repositories {
     maven { url 'https://jitpack.io' }
+    maven { url = "https://api.modrinth.com/maven" }
 }
 
 <...>
