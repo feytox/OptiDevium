@@ -29,7 +29,7 @@ Make sure that there is a branch with the version number you need.
 - Sodium - https://modrinth.com/mod/sodium
 - Lithium - https://modrinth.com/mod/lithium
 - Indium - https://modrinth.com/mod/indium
-- FastLoad - https://modrinth.com/mod/fastload
+- SmoothBoot - https://modrinth.com/mod/smoothboot-fabric
 - FerriteCore - https://modrinth.com/mod/ferrite-core
 - LazyDFU - https://modrinth.com/mod/lazydfu
 - Mod Menu - https://modrinth.com/mod/modmenu
